@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto;
+
+option java_package = "com.example.microservice.dto.request";
+option java_outer_classname = "Employee";
+
+message employee {
+  int32 id = 1;
+  string name = 2;
+  int32 salary = 3;
+}
